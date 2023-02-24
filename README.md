@@ -1,2 +1,2 @@
-# READMEGenerator
-Generate README.md dynamically using nodejs
+# README Generator
+
