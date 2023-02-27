@@ -24,10 +24,13 @@ function renderLicenseLink(license) {
         return '(https://www.gnu.org/licenses/gpl-3.0)';
         break;
     case 'Mozilla_Public_License_2.0':
-        return '(https://opensource.org/licenses/MPL-2.0)'
+        return '(https://opensource.org/licenses/MPL-2.0)';
+        break;
+    case 'BSD_3_Clause_License':
+        return '(https://opensource.org/licenses/BSD-3-Clause)';
         break;
     case 'None':
-        return ''
+        return '';
         break;
     default:
       break;
@@ -38,7 +41,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license){
-    return `This project uses the ${license} license`
+    return `This project uses the [${license}]${renderLicenseLink(license)} license`
 
   }
   else{
