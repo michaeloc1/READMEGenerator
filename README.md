@@ -1,39 +1,42 @@
 
- # Project
+ # README Generator
 
- [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+ [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
  ## Description
- des  
- sdkj  
- sdlj  
- sdkld
+ This project simplifies making a professional README file for your project.  
+ It was motivated by the need to create a README file without having to format the md file.  
+ It lets the user spend less time having to create the README and spend more time coding  the project itself.  
+ I learned about coding in node and also using the inquirer package.
 
  ## Table of Contents
+- [README Generator](#readme-generator)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contibuting)
+  - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
   ## Installation
-  dldlek
+  install node and inquirer.
 
   ## Usage
-  dleleld
+  Navigate to the folder where the project is and type node index.js.
 
   ## License
-  This project uses the [Apache_2.0](https://opensource.org/licenses/Apache-2.0) license
+  This project uses the [MIT](https://opensource.org/licenses/MIT) license
 
   ## Contributing
-  dkdkjfe
+  Email me at the address listed below.
 
   ## Tests
-  llajdkel
+  None at this time.
 
   ## Questions
- Email me at: m  
- Link to my Github profile: https://github.com/d   
- Link to this projects github repository: https://github.com/d/d
+ Email me at: michaeloc@verizon.net  
+ Link to my Github profile: https://github.com/michaeloc1   
+ Link to this projects github repository: https://github.com/michaeloc1/READMEGenerator
  
