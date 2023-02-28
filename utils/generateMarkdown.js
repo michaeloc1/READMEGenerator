@@ -40,9 +40,9 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if(license){
+  if(license != 'None'){
     return `This project uses the [${license}]${renderLicenseLink(license)} license`
-
+   
   }
   else{
     return ''
@@ -86,8 +86,9 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  ${data.email}  
- [Github Repositories](https://github.com/${data.github})
+ Email me at: ${data.email}  
+ Link to my Github profile: https://github.com/${data.github}   
+ Link to this projects github repository: https://github.com/${data.github}/${data.repository}
  `
 return strMD
   //return `# ${data.title}`;

@@ -59,12 +59,18 @@ const questions = [
         message: 'What is your github username?',
         name: 'github',
     },
+        {
+        type: 'input',
+        message: 'What is the name of this projects gihub repository?',
+        name: 'repository',
+    },
     {
         type: 'list',
         message: 'What licence would you like to use?',
         choices: ['None', 'Apache_2.0', 'MIT', 'GNU_GPL_v3', 'Mozilla_Public_License_2.0','BSD_3_Clause_License'],
         name: 'license',
     }
+
 ];
 
 // TODO: Create a function to write README file
