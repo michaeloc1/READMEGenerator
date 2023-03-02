@@ -9,6 +9,19 @@
  It lets the user spend less time having to create the README and spend more time coding  the project itself.  
  I learned about coding in node and also using the inquirer package.
 
+ ## Table of Contents
+- [README Generator](#readme-generator)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  - [Link to walkthrough video](#link-to-walkthrough-video)
+  - [Link to generated README](#link-to-generated-readme)
+
   ## Installation
   install node and inquirer.
 
